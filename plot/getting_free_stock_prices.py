@@ -11,7 +11,7 @@ import  sys
 """changing dir in this file also leads to change in 'CWDir' of parent scripts, like 'my attempt' """
 # EX_DIR = os.getcwd() + '/polls/'
 # os.chdir(EX_DIR + '/stocks pulled')
-EX_DIR = os.path.dirname(os.path.abspath(__file__)) + "\\stocks pulled\\"
+EX_DIR = os.path.dirname(os.path.abspath(__file__)) + "/stocks pulled/"
 
 def pullData(stock):
     # print('current working dir : ' + os.getcwd())
